@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: Light;
+}
