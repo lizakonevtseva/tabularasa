@@ -1,3 +1,4 @@
+/* ///////////////////////// Мобильные устройства ///////////////////////// */
 @media screen and (max-width: 414px) and (orientation: portrait) {
   body {
     font-size: 14px;
@@ -122,12 +123,9 @@
     flex-direction: row;
     height: 50vh;
   }
-
-  .side-text {
-    height: 100%;
-  }
 }
 
+/* ///////////////////////// Планшеты ///////////////////////// */
 @media screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait) {
   .main-flexbox {
     height: 55vh;
@@ -188,6 +186,7 @@
   }
 }
 
+/* ///////////////////////// Маленькие экраны ///////////////////////// */
 @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
   .main-layout-row {
     height: 55vh;
@@ -213,6 +212,7 @@
   }
 }
 
+/* ///////////////////////// Средние экраны ///////////////////////// */
 @media screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait) {
   .main-flexbox {
     height: 60vh;
@@ -236,6 +236,7 @@
   }
 }
 
+/* ///////////////////////// Большие экраны ///////////////////////// */
 @media screen and (min-width: 1367px) and (max-width: 1920px) and (orientation: portrait) {
   .main-flexbox {
     height: 65vh;
@@ -255,6 +256,7 @@
   }
 }
 
+/* ///////////////////////// Очень большие экраны ///////////////////////// */
 @media screen and (min-width: 1921px) and (orientation: portrait) {
   .main-flexbox {
     height: 70vh;
@@ -287,6 +289,7 @@
   }
 }
 
+/* ///////////////////////// Ультра-HD экраны (4K и выше) ///////////////////////// */
 @media screen and (min-width: 2561px) {
   .main-flexbox {
     height: 75vh;
