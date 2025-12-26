@@ -308,10 +308,10 @@ body {
 
 @keyframes rotate-snowflake {
   from {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
 
@@ -790,7 +790,7 @@ body {
 
 .anim-text {
   font-family: "Helvetica", sans-serif;
-  font-size: 7vh;
+  font-size: 5.5vh;
   font-weight: 300;
   color: #ffffff;
   text-transform: uppercase;
